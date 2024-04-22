@@ -7,7 +7,7 @@ Custom Libraries for PipelineStagingLibrary:
 - wheel 0.43.0
 - twine 5.0.0
 
-**setup.py:** pkg-newfinalcustom-pipeline-staging-final 0.1.0
+**setup.py:** custom-pipeline-stages-manager 0.1.0
 
 Custom Packages for AWS S3 Facilitation:
 - boto3 1.34.88
@@ -56,13 +56,13 @@ Publish the library to PyPI:
 Install (i.e. via pip) the distribution package/library:
 
 ```bash
-  python3 -m pip install --index-url https://pypi.org/simple --no-deps pkg-newfinalcustom-pipeline-staging-final==0.1.0
+  python3 -m pip install --index-url https://pypi.org/simple --no-deps custom-pipeline-stages-manager==0.1.0
 ```
 Information about the installed library:
 
 ```bash
   pip list
-  pip show pkg-newfinalcustom-pipeline-staging-final
+  pip show custom-pipeline-stages-manager
 ```
 
 ## Configuration Files
@@ -70,6 +70,6 @@ Information about the installed library:
 - setup.py
 Metadata of Custom Library :
 ```bash
- pkg-newfinalcustom-pipeline-staging-final 
+ custom-pipeline-stages-manager 
  version=0.1.0
 ```
